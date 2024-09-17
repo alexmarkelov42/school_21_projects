@@ -1,0 +1,22 @@
+* School 21 Projects
+All following projects were completed while studying at [[https://21-school.ru]["Scool 21"]]
+** C
+*** Simple BASH utils ([[./C/bash_utils/cat]["cat"]] and [[./C/bash_utils/grep]["grep"]])
+*** Strings manipulation library [[./C/string/][string.h]]
+*** Mathematical functions library [[./C/math/][math.h]]
+*** Big numbers library [[./C/decimal][decimal]]
+*** Matrix manipulation library [[./C/matrix][matrix]]
+*** Mathematical expression calculator [[./C/expression_calculator][expression calculator]]
+*** Program for viewing 3D models [[./C/3DViewer][3D viewer]]
+** DevOps
+*** Basic Linux administrating [[./DevOps/LinuxBasics/][link]]
+*** Linux Networking [[./DevOps/LinuxNetworking][link]]
+*** Linux Monitoring [[./DevOps/LinuxMonitoring][link]]
+*** Docker basics [[./DevOps/Docker][link]]
+*** CI/CD basics [[./DevOps/CICD][link]]
+** SQL
+*** School 21 students database [[./SQL/Info][Info21]]
+*** Clients database and personal offers [[./SQL/RetailAnalytics][Retail Analytics]]
+** C++
+*** Matrix manipulation library [[./CPP/matrix][matrix]]
+*** Standart library containers [[./CPP/containers][STL containers]]

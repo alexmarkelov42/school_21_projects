@@ -1,0 +1,22 @@
+* Проекты "Школа 21"
+Следующие проекты были выполнены во время обучения в [[https://21-school.ru]["Школе 21"]]
+** Язык C
+*** Базовые утилиты BASH ([[./C/bash_utils/cat]["cat"]] and [[./C/bash_utils/grep]["grep"]])
+*** Библиотека для работы со строками [[./C/string/][string.h]]
+*** Библиотека для математических вычислений [[./C/math/][math.h]]
+*** Библиотека для работы с числами большого порядка [[./C/decimal][decimal]]
+*** Библиотека для работы с матрицами [[./C/matrix][matrix]]
+*** Калькулятор математических выражений [[./C/expression_calculator][expression calculator]]
+*** Программа для просмотра 3D моделей [[./C/3DViewer][3D viewer]]
+** DevOps
+*** Основы администрирования Linux [[./DevOps/LinuxBasics/][link]]
+*** Администрирование сетей в Linux [[./DevOps/LinuxNetworking][link]]
+*** Мониторинг Linux [[./DevOps/LinuxMonitoring][link]]
+*** Основы работы с Docker [[./DevOps/Docker][link]]
+*** Основы работы с CI/CD (gitlab-runner) [[./DevOps/CICD][link]]
+** SQL
+*** База данных обучающихся в Школе 21 [[./SQL/Info][Info21]]
+*** База данных клиентов различных магазинов и персональные предложения [[./SQL/RetailAnalytics][Retail Analytics]]
+** Язык C++
+*** Библиотека для работы с матрицами [[./CPP/matrix][matrix]]
+*** Контейнеры стандартной библиотеки [[./CPP/containers][STL containers]]
