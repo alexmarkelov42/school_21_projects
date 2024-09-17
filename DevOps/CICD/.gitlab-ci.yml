@@ -1,0 +1,54 @@
+stages:
+  - build
+  - style_test
+  - unit-test
+  - deploy
+
+build-job:
+  stage: build
+  tags: 
+    - s21_jarrusab
+  script:
+    - ./src/build_stage.sh
+  artifacts:
+    name: "$CI_JOB_NAME"
+    paths:
+      - ./artifacts/s21_cat
+      - ./artifacts/s21_grep
+    expire_in: 30 days
+
+
+lint-test-job:
+  stage: style_test
+  tags: 
+    - s21_jarrusab
+  allow_failure: false 
+  script:
+    - ./src/style_stage.sh   
+
+unit-test-job:
+  stage: unit-test
+  needs:
+    - build-job
+    - lint-test-job
+  tags: 
+    - s21_jarrusab
+  allow_failure: false 
+  script:
+    - ./src/unit_test_stage.sh
+
+
+deploy-job:
+  stage: deploy
+  needs:
+    - build-job
+    - lint-test-job
+    - unit-test-job
+  tags: 
+    - s21_jarrusab  
+  environment: production
+  script:
+    - ./src/deploy.sh
+  rules:
+    - when: manual
+
